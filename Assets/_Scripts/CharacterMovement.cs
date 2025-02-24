@@ -6,9 +6,11 @@ public class CharacterMovement : MonoBehaviour
 {
     Rigidbody rb;
 
-    Vector3 moveVectorInput;
-    Vector3 moveDirection;
+    UnityEngine.Vector3 moveVectorInput;
+    UnityEngine.Vector3 moveDirection;
+    UnityEngine.Vector3 rotationDirection;
     [SerializeField] float speed = 10f;
+    [SerializeField] float rotationSpeed = 5f;
     [SerializeField] Camera targetCamera;
 
     private void Awake()
@@ -23,6 +25,7 @@ public class CharacterMovement : MonoBehaviour
     private void Update()
     {
         HandleMovement();
+        HandleRotation();
     }
 
     private void HandleMovement()
@@ -37,5 +40,21 @@ public class CharacterMovement : MonoBehaviour
         moveVelocity += Physics.gravity;
 
         rb.linearVelocity = moveVelocity;
+    }
+
+    private void HandleRotation()
+    {
+       if (moveDirection.magnitude > 0f)
+        {
+            rotationDirection = moveDirection;
+        }
+
+       if(rotationDirection != Vector3.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(rotationDirection);
+            Quaternion rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+            transform.rotation = rotation;
+        }
     }
 }
