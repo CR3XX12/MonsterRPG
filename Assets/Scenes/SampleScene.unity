@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 24752211}
   - component: {fileID: 24752213}
   - component: {fileID: 24752212}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain_(-20.00, 0.00, -20.00)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 45045825}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrains
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 98699919}
   - component: {fileID: 98699921}
   - component: {fileID: 98699920}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain_(20.00, 0.00, 20.00)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -558,7 +558,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2534013, y: -0.0000000012202312, z: 3.1964087e-10, w: 0.9673613}
-  m_LocalPosition: {x: 10.8, y: 3.4099998, z: -2.74}
+  m_LocalPosition: {x: 10.8, y: 4.2799997, z: -2.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 341474442}
   - component: {fileID: 341474444}
   - component: {fileID: 341474443}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain_(-20.00, 0.00, 0.00)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1324,7 +1324,7 @@ Transform:
   m_GameObject: {fileID: 661955497}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2534013, y: -0.0000000012202312, z: 3.1964087e-10, w: 0.9673613}
-  m_LocalPosition: {x: 10.8, y: 3.4099998, z: -2.74}
+  m_LocalPosition: {x: 10.8, y: 4.2799997, z: -2.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1496,7 +1496,7 @@ GameObject:
   - component: {fileID: 841916947}
   - component: {fileID: 841916946}
   - component: {fileID: 841916945}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1589,7 +1589,7 @@ GameObject:
   - component: {fileID: 940153015}
   - component: {fileID: 940153017}
   - component: {fileID: 940153016}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain_(0.00, 0.00, 20.00)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1756,7 +1756,7 @@ GameObject:
   - component: {fileID: 1005773246}
   - component: {fileID: 1005773248}
   - component: {fileID: 1005773247}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain_(20.00, 0.00, 0.00)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1911,7 +1911,7 @@ GameObject:
   - component: {fileID: 1139266524}
   - component: {fileID: 1139266526}
   - component: {fileID: 1139266525}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain_(20.00, 0.00, -20.00)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2004,7 +2004,7 @@ GameObject:
   - component: {fileID: 1158540648}
   - component: {fileID: 1158540650}
   - component: {fileID: 1158540649}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain_(0.00, 0.00, -20.00)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2415,7 +2415,7 @@ Transform:
   m_GameObject: {fileID: 1212780363}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2472,7 +2472,7 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 2
+  m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!4 &1286563110 stripped
@@ -2491,18 +2491,6 @@ PrefabInstance:
     - target: {fileID: 3288679339238911349, guid: fe5b84893946e894c9948f4f5998b76c, type: 3}
       propertyPath: m_Name
       value: House
-      objectReference: {fileID: 0}
-    - target: {fileID: 8183709589327758722, guid: fe5b84893946e894c9948f4f5998b76c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8183709589327758722, guid: fe5b84893946e894c9948f4f5998b76c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8183709589327758722, guid: fe5b84893946e894c9948f4f5998b76c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8183709589327758722, guid: fe5b84893946e894c9948f4f5998b76c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2654,7 +2642,7 @@ GameObject:
   - component: {fileID: 2011604803}
   - component: {fileID: 2011604805}
   - component: {fileID: 2011604804}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain_(-20.00, 0.00, 20.00)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

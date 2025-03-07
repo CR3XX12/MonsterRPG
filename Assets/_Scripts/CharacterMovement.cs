@@ -22,7 +22,7 @@ public class CharacterMovement : MonoBehaviour
         moveVectorInput = moveVector;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         HandleMovement();
         HandleRotation();
