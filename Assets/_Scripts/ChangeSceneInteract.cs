@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneInteract : MonoBehaviour
 {
+    [SerializeField] string targetScene;
    public void ChangeScene()
     {
-        SceneManager.UnloadSceneAsync("DemoScene");
-        SceneManager.LoadSceneAsync("BattleScene", LoadSceneMode.Additive);
+        UnityEngine.Object.FindFirstObjectByType<GameSceneManager>().SwitchEnvironmentScene(targetScene);
         
     }
 }
